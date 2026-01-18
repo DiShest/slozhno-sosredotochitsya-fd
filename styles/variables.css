@@ -3,10 +3,8 @@
   и их переопределение под различные устройства
 */
 :root {
-  
   --main-font: "IBM Plex Mono", monospace;
 
-  
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --title-color: #db00ff;
@@ -15,13 +13,10 @@
   --button-color: #ff0070;
   --link-shadow: #ff0070;
 
-  
   --button-hover-border: rgba(255, 0, 112, 0.4);
 
-  
   --bg-image: url("../images/cover-image-dark.png");
 
-  
   --section-gap: 50px;
   --content-padding: 10px;
 }
