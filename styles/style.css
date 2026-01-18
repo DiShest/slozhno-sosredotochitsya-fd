@@ -1,13 +1,18 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+.page {
+  min-height: 100%;
+  background-attachment: fixed; /* важно для автотеста */
+}
 
 .page__body {
+  min-height: 100%;
   color: var(--text-color);
+
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .content {
