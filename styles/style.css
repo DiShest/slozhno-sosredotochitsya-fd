@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   min-height: 100%;
-  background-attachment: fixed; /* важно для автотеста */
+  background-attachment: fixed; 
 }
 
 .page__body {
