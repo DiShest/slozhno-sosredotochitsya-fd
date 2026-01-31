@@ -66,8 +66,3 @@ img {
   max-inline-size: 100%;
   block-size: auto;
 }
-
-:focus-visible {
-  outline: 1px solid currentColor;
-  outline-offset: 2px;
-}

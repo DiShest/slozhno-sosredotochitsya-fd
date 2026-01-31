@@ -20,3 +20,15 @@
   --section-gap: 50px;
   --content-padding: 10px;
 }
+:root.theme-light {
+  --bg-color: #fff1f7;
+  --text-color: #353430;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --decor-color: #353430;
+  --button-color: #353430;
+  --link-shadow: #ff8dcb;
+
+  --button-hover-border: rgba(53, 52, 48, 0.4);
+  --bg-image: url("../images/cover-image-light.png");
+}
