@@ -29,6 +29,7 @@
     --decor-color: #353430;
     --button-color: #353430;
     --link-shadow: #ff8dcb;
+    --button-hover-border: rgba(50, 49, 45, 0.4);
 
     --bg-image: url("../images/cover-image-light.png");
   }
@@ -37,3 +38,7 @@
     display: none;
   }
 }
+
+:root.theme-auto .title-decor {
+    color: var(--text-color);
+  }

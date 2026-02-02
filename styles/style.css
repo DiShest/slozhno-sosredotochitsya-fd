@@ -7,7 +7,7 @@
 .page__body {
   min-height: 100%;
   color: var(--text-color);
-
+background-attachment: fixed;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
@@ -95,8 +95,13 @@
 
 .header__rec {
   position: absolute;
-  inset-inline-end: calc(var(--content-padding) + 28px);
-  inset-block-start: calc(var(--content-padding) + 2px);
+  inset-inline-end: calc(var(--content-padding) + 10px);
+  inset-block-start: var(--content-padding);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   color: var(--accent-color);
   font-size: 18px;
   line-height: 25px;
@@ -108,11 +113,9 @@
   display: inline-block;
   inline-size: 9px;
   block-size: 9px;
-  margin-inline-start: 10px;
   border-radius: 50%;
   background: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
-  transform: translateY(-1px);
 }
 
 .header__title {
